@@ -1,6 +1,6 @@
 
 ancho = ' ' * 10
-largo = 5
+largo = 10
 espacio = '#' 
 barras= '_' 
 barra10 = barras * 10 
@@ -11,8 +11,8 @@ for i in range(largo):
     #print('#' + ancho + barras + ancho +'#' )
 
     print('#' +ancho  + ancho + ancho + ancho +'#')
-    print('#' + ancho + barras + ancho + barras + '#')
-    print('#' +barras + ancho + barras + ancho + "#")
+    #print('#' + ancho + barras + ancho + barras + '#')
+    #print('#' +barras + ancho + barras + ancho + "#")
     #print('#' + barras + ancho + barras +'#')
     #print('#' + barras *5 + '#')
 
