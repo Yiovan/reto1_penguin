@@ -1,7 +1,8 @@
 # Se usa 'y' para la fila (arriba/abajo) y 'x' para la columna (izquierda/derecha)
 raton_y = 0 
 raton_x = 0 
-gato = -1 
+gato_y = 4 
+gato_x = 9
 ancho = 10  # Columnas (movimiento 'a' y 'd')
 largo = 5   # Filas (movimiento 'w' y 's')
 # El espacio ahora debe ser el ancho + 2 para los bordes
@@ -22,7 +23,13 @@ while True:
                 fila += "r"
             else:
                 fila += "." 
-        
+
+            #el movimiento del raton debe ser similar 
+
+            if x == gato_x and y == gato_y:
+                fila += "g"
+            else:
+                fila += "."
         fila += "|"
         print(fila)
 
@@ -55,3 +62,6 @@ while True:
         
     elif movimiento == 'q':
         break
+
+    else:
+       gato_x = min(raton_x)
