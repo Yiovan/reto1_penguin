@@ -30,8 +30,13 @@ def inicializar(filas: int, columnas: int, modo_movimiento: int = 4):
         (0,-1) #izquierda
         (0,1) # derecha 
     ]
-    
     ''' 
     seguir con movimientos diagonales mas tarde 
     '''
+    movimentos_8 = [
+        (-1,-1) #arriba izquierda
+        (-1, 1) #arriba derecha
+        (1,-1) #abajo izquierda 
+        (1,1) #abajo derecha
+    ]
     
