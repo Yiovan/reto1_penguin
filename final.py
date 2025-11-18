@@ -38,8 +38,3 @@ print("movimientos posibles", movs)
 
 
 
-
-def seleccion_de_personajes (personaje):
-    personaje = input ('Ingrese ' \
-    'g- Gato' \
-    'r- raton')

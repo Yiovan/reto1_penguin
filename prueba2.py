@@ -31,7 +31,7 @@ def mover(pos_actual, direccion):
 
     if 0 <= nx < 3 and 0 <= ny < 6:
         return (nx, ny)
-    return pos_actual and 'no se puede'
+    return pos_actual
 #si el personaje se sale del mapa, ya sea quiere superar las 
 
 
