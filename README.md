@@ -29,7 +29,7 @@ Eres un ratón (R) atrapado en un laberinto con un gato (G) que te persigue inte
 ### Ejecución
 
 ```bash
-python laberinto.py
+python game.py
 ```
 
 ### Controles
