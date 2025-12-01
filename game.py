@@ -10,10 +10,10 @@ contador =8
 lab = [
     "#####################", #1
     "#     #        #    #", #2
-    "# ### # ###### # ## #", #3
+    "# ##  # ###### # ## #", #3
     "S #   #      # #    #", #4
     "# # ######## # ######", #5
-    "# #        # #      #", #6
+    "# #   Q    # #      #", #6
     "# ####### ## ###### #", #7
     "#       #        #  #", #8
     "# ##### ######## # ##", #9
@@ -124,10 +124,11 @@ while True:
             columna_raton-=1
         elif tecla == "d" and lab[fila_raton][columna_raton +1] != "#":
             columna_raton +=1
-            
+        else: 
+            print('movimiento invalido') 
         mover_gato()
         contador -=1
         if contador == 0:
              print('alcanzaste tu limite de veces')
              break
-    time.sleep(0.05)
+    time.sleep(0.01)
